@@ -1,0 +1,42 @@
+{
+  "name": "mobile-app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^55.0.8",
+    "@expo/metro-runtime": "~55.0.11",
+    "@react-native-google-signin/google-signin": "^16.1.2",
+    "@react-native-masked-view/masked-view": "0.3.2",
+    "expo": "~55.0.26",
+    "expo-auth-session": "~55.0.16",
+    "expo-blur": "~55.0.14",
+    "expo-constants": "~55.0.16",
+    "expo-crypto": "~55.0.15",
+    "expo-image-picker": "~55.0.20",
+    "expo-linear-gradient": "~55.0.14",
+    "expo-linking": "~55.0.15",
+    "expo-media-library": "~55.0.20",
+    "expo-router": "~55.0.16",
+    "expo-sharing": "~55.0.23",
+    "expo-status-bar": "~55.0.6",
+    "expo-web-browser": "~55.0.16",
+    "firebase": "^12.14.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-native": "^0.83.6",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-view-shot": "4.0.3",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
